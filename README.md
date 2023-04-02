@@ -1,71 +1,67 @@
 # Chatbot UI Lite
 
-A simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS.
+一个简单的聊天机器人起始套件，使用Next.js、TypeScript和Tailwind CSS作为OpenAI聊天模型的支持。
 
-See a [demo](https://twitter.com/mckaywrigley/status/1634549098954248193?s=46&t=AowqkodyK6B4JccSOxSPew).
+查看[演示]( https://twitter.com/mckaywrigley/status/1634549098954248193?s=46&t=AowqkodyK6B4JccSOxSPew )。
 
-For an advanced version, see [Chatbot UI](https://github.com/mckaywrigley/chatbot-ui).
+
 
 ![Chatbot UI Lite](./public/screenshot.png)
 
-## Features
+## 特点
 
-Chatbot UI Lite provides a simple, fully-functional chat interface that you can use to start building your own chatbot apps powered by OpenAI.
+Chatbot UI Lite提供了一个简单、完全功能的聊天界面，您可以使用它开始构建自己的由OpenAI支持的聊天机器人应用程序。
 
-It has everything you need to hit the ground running.
+它具有您需要的一切，可以立即开始。
 
-Modify the chat interface in `components/Chat`.
+在`components/Chat`中修改聊天界面。
 
-Tweak the system prompt in `utils/index.ts`.
+在`utils/index.ts`中调整系统提示。
 
-Tweak the assistant prompt in `pages/index.tsx`.
+在`pages/index.tsx`中调整助手提示。
 
-## Deploy
+## 部署
 
 **Vercel**
 
-Host your own live version of Chatbot UI Lite with Vercel.
+使用Vercel托管Chatbot UI Lite的实时版本。
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui-lite&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key%20needed%20for%20chat.&envLink=https%3A%2F%2Fopenai.com%2Fproduct&project-name=chatbot-ui-lite&repository-name=chatbot-ui-lite)
 
 **Replit**
 
-Fork Chatbot UI on Replit [here](https://replit.com/@MckayWrigley/chatbot-ui).
+在Replit上分叉Chatbot UI[这里]( https://replit.com/@MckayWrigley/chatbot-ui )。
 
-## Running Locally
+## 本地运行
 
-**1. Clone Repo**
+**1. 克隆Repo**
 
 ```bash
 git clone https://github.com/mckaywrigley/chatbot-ui-lite.git
 ```
 
-**2. Install Dependencies**
+**2. 安装依赖项**
 
 ```bash
 npm i
 ```
 
-**3. Provide OpenAI API Key**
+**3. 提供OpenAI API密钥**
 
-Create a .env.local file in the root of the repo with your OpenAI API Key:
+在repo的根目录中创建一个.env.local文件，并提供您的OpenAI API密钥:
 
 ```bash
 OPENAI_API_KEY=<YOUR_KEY>
 ```
 
-**4. Run App**
+**4.  运行应用程序 **
 
 ```bash
 npm run dev
 ```
 
-**5. Start Building**
+**5. 开始构建 **
 
-You should be able to start chatting with the bot.
+您应该能够开始与机器人聊天了。
 
-Now, go build the app into whatever kind of chatbot you want!
-
-## Contact
-
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).
+现在，去构建任何您想要的聊天机器人应用程序！

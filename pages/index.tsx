@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `你好! 我是Chatbot UI,一款人工智能助手, 我的目的是帮助您回答问题、提供信息并协助完成任务, 请问有什么需要帮忙的吗?`
       }
     ]);
   };
@@ -93,7 +93,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `你好! 我是Chatbot UI,一款人工智能助手, 我的目的是帮助您回答问题、提供信息并协助完成任务, 请问有什么需要帮忙的吗?`
       }
     ]);
   }, []);
