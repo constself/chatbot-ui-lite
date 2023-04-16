@@ -2,7 +2,7 @@
 
 一个简单的聊天机器人起始套件，使用Next.js、TypeScript和Tailwind CSS作为OpenAI聊天模型的支持。
 
-查看[演示]( https://twitter.com/mckaywrigley/status/1634549098954248193?s=46&t=AowqkodyK6B4JccSOxSPew )。
+查看[演示]( https://chatbot-ui-lite.pages.dev/ )。
 
 
 
@@ -22,15 +22,9 @@ Chatbot UI Lite提供了一个简单、完全功能的聊天界面，您可以�
 
 ## 部署
 
-**Vercel**
+**cloudflare**
 
-使用Vercel托管Chatbot UI Lite的实时版本。
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui-lite&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key%20needed%20for%20chat.&envLink=https%3A%2F%2Fopenai.com%2Fproduct&project-name=chatbot-ui-lite&repository-name=chatbot-ui-lite)
-
-**Replit**
-
-在Replit上分叉Chatbot UI[这里]( https://replit.com/@MckayWrigley/chatbot-ui )。
+使用cloudflare托管Chatbot UI Lite的实时版本。
 
 ## 本地运行
 
@@ -59,6 +53,17 @@ OPENAI_API_KEY=<YOUR_KEY>
 ```bash
 npm run dev
 ```
+
+## 环境变量
+
+配置本地或者部署的环境变量
+
+| 名称                  | 描述                               | 默认                     |
+| :-------------------- | ---------------------------------- | ------------------------ |
+| `OPENAI_API_KEY`      | 你的 OpenAI API Key                | `null`                   |
+| `OPENAI_API_BASE_URL` | 请求 OpenAI API 的自定义 Base URL. | `https://api.openai.com` |
+
+
 
 **5. 开始构建 **
 
