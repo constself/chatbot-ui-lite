@@ -48,7 +48,7 @@ npm i
 OPENAI_API_KEY=<YOUR_KEY>
 ```
 
-**4. 运行应用程序 **
+**4. 运行应用程序**
 
 ```bash
 npm run dev
@@ -64,7 +64,7 @@ npm run dev
 | `OPENAI_API_BASE_URL` | 请求 OpenAI API 的自定义 Base URL.    | `https://api.openai.com` |
 | `NODE_VERSION`        | 在部署cloudflare添加,指定node版本`17` | `12`                     |
 
-**5. 开始构建 **
+**5. 开始构建**
 
 您应该能够开始与机器人聊天了。
 
