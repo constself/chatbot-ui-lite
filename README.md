@@ -20,7 +20,7 @@ Chatbot UI Lite 提供了一个简单、完全功能的聊天界面，您可以�
 
 ## 部署
 
-**cloudflare**
+**[cloudflare](https://www.cloudflare.com/zh-cn/)**
 
 使用 cloudflare 托管 Chatbot UI Lite 的实时版本。
 
